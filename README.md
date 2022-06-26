@@ -85,3 +85,12 @@ setA = {1, 2, 3, 4}
 setB = {3, 4, 1, 2}
 print(setA == setB) # -> True
 ```
+Но если в множестве A есть элемент не входящий в множество B то:
+```Python
+setA = {1, 2, 24}
+setB = {3, 4, 1, 2}
+print(setA == setB) # -> False
+print(setA > setB) # -> False
+print(setA < setB) # -> False
+print(setA != setB) # -> True
+```
