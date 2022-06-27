@@ -24,11 +24,7 @@ author: 'RMS83'
 * `String.lstrip()` - Удаляет пробелы и переносы строк слева
 
 ## Операции (методы) с множествами:
-<<<<<<< HEAD
-![setDiagram&](/img/setDiagram&)
-=======
 ![setDiagram&](/img/setDiagram&.png)
->>>>>>> 12f96af51f8a717544bc52549b7a5e6e20427c7a
 * ` & `, `setA.intersection(setB)` - Пересечение множест (получение только общих значений):
 ```Python
 setA = {1, 2, 3, 4}
