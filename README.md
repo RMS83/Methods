@@ -40,7 +40,7 @@ setA &= setB
 setA.intersection_update(setB)
 print(setA) # -> {3, 4}
 ```
-![setDiagram|](/img/setDiagramunion.png)
+![setDiagram.union](/img/setDiagram.union.png)
 * ` | ` `setA.union(setB)` - Объединение множеств (получить объединенные множества с уникальными значениями):
 ```Python
 setA = {1, 2, 3, 4}
