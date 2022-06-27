@@ -36,12 +36,11 @@ print(setA.intersection(setB)) # -> {3, 4}
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
-setA &= setB
-setA.intersection_update(setB)
+setA &= setB # или setA.intersection_update(setB)
 print(setA) # -> {3, 4}
 ```
 ![setDiagram.union](/img/setDiagram.union.png)
-* ` | ` `setA.union(setB)` - Объединение множеств (получить объединенные множества с уникальными значениями):
+* ` | `, `setA.union(setB)` - Объединение множеств (получить объединенные множества с уникальными значениями):
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
@@ -56,31 +55,33 @@ setA |= setB
 print(setA) # -> {1, 2, 3, 4, 5, 6, 7}
 ```
 ![setDiagram-](/img/setDiagram-.png)
-* ` - ` - вычитание множеств (вычесть пересекающиеся знаения множеств):
+* ` - ` `setA.difference(setB)` - вычитание множеств (вычесть пересекающиеся знаения множеств):
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
 print(setA - setB) # -> {1, 2}
+print(setA.subtracting(setB)) # -> {1, 2}
 ```
-* `setA -= setB` - Cоздает новое множество setA:
+* `setA -= setB`, `setA.difference_update(setB)` - Cоздает новое множество setA:
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
-setA -= setB
+setA -= setB # или setA.difference_update(setB)
 print(setA) # -> {1, 2}
 ```
 ![setDiagram^](/img/setDiagram^.png)
-* ` ^ ` - Cимметричная разность (соединить множества за исключением общего элемента):
+* ` ^ `, `setA.symmetric_difference(setB)` - Cимметричная разность (соединить множества за исключением общего элемента):
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
 print(setA ^ setB) # -> {1, 2, 5, 6, 7}
+print(setA.symmetric_difference(setB)) # -> {1, 2, 5, 6, 7}
 ```
-* `setA ^= setA` - Cоздает новое множество setA:
+* `setA ^= setA`, `setA.symmetric_difference_update(setB)` - Cоздает новое множество setA:
 ```Python
 setA = {1, 2, 3, 4}
 setB = {3, 4, 5, 6, 7}
-setA ^= setB
+setA ^= setB # или setA.symmetric_difference_update(setB)
 print(setA) # -> {1, 2, 5, 6, 7}
 ```
 * `setA == setB ` - Сравнение множеств происходит по кол-ву элементов и их значениям:
