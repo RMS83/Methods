@@ -40,6 +40,7 @@ setA &= setB
 setA.intersection_update(setB)
 print(setA) # -> {3, 4}
 ```
+![setDiagram|](/img/setDiagramunion.png)
 * ` | ` `setA.union(setB)` - Объединение множеств (получить объединенные множества с уникальными значениями):
 ```Python
 setA = {1, 2, 3, 4}
@@ -54,6 +55,7 @@ setB = {3, 4, 5, 6, 7}
 setA |= setB
 print(setA) # -> {1, 2, 3, 4, 5, 6, 7}
 ```
+![setDiagram-](/img/setDiagram-.png)
 * ` - ` - вычитание множеств (вычесть пересекающиеся знаения множеств):
 ```Python
 setA = {1, 2, 3, 4}
@@ -67,6 +69,7 @@ setB = {3, 4, 5, 6, 7}
 setA -= setB
 print(setA) # -> {1, 2}
 ```
+![setDiagram^](/img/setDiagram^.png)
 * ` ^ ` - Cимметричная разность (соединить множества за исключением общего элемента):
 ```Python
 setA = {1, 2, 3, 4}
@@ -95,7 +98,3 @@ print(setA > setB) # -> False
 print(setA < setB) # -> False
 print(setA != setB) # -> True
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 12f96af51f8a717544bc52549b7a5e6e20427c7a
