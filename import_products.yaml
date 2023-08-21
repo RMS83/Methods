@@ -1,4 +1,9 @@
+user:
+  - id: 4
+    email: "V1@mail.ru"
+    
 vendor_name: ООО"Рога и копыта"
+
 categories:
   - name: Смартфоны
     description: Новинки мобильного рынка
