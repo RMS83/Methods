@@ -2,7 +2,7 @@ user:
   - id: 4
     email: "V1@mail.ru"
     
-vendor_name: ООО"Рога и копыта"
+vendor_name: ИП Проха
 
 categories:
   - name: Смартфоны
