@@ -1,8 +1,10 @@
 user:
   - id: 4
     email: V1@mail.ru
-    
-vendor_name: ИП Проха
+
+vendor:
+  - id: 1
+    name: ИП Проха
 
 categories:
   - name: Смартфоны
