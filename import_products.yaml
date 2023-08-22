@@ -20,7 +20,7 @@ stock:
   - art: ph1
     model: MWDE2LL/A
     description: Классный тел.
-    price: 60000.00,
+    price: 60000.00
     price_rrc: 79000.00
     quantity: 10
     product: Iphone 13Pro
@@ -32,7 +32,7 @@ stock:
   - art: ph2
     model: MWDE2LL/B
     description: Классный тел.
-    price: 60000.00,
+    price: 60000.00
     price_rrc: 79000.00
     quantity: 10
     product: Iphone 13Pro
