@@ -11,6 +11,8 @@ categories:
     description: Мелочи для оргтехники
   - name: Flash-накопители
     description: Электронные устройства для хранения информации
+  - name: Пылесосы
+    description: Устройства для пылесосания
     
 products:
   - name: Iphone
