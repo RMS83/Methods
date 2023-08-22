@@ -1,3 +1,4 @@
+---
 categories:
   - name: Смартфоны
     description: Новинки мобильного рынка
@@ -5,3 +6,4 @@ categories:
     description: Мелочи для оргтехники
   - name: Flash-накопители
     description: Электронные устройства для хранения информации
+...
