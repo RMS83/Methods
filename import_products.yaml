@@ -15,26 +15,29 @@ categories:
     description: Электронные устройства для хранения информации
   - name: Пылесосы
     description: Устройства для пылесосания
-    
-products:
-  - name: Iphone
-    category: Смартфоны
-  - name: Sony
-    category: Смартфоны
-  - name: GiGabit
-    category: Flash-накопители
-    
+       
 stock:
-  - id: 1
-    art: ph1
-    model: 12 Pro
+  - art: ph1
+    model: MWDE2LL/A
     description: Классный тел.
     price: 60000.00,
     price_rrc: 79000.00
     quantity: 10
-    vendor: 1
-    product: 1
+    product: Iphone 13Pro
+    category: Смартфоны
     product_characteristics: 
-      "Вес (гр)": 150 гр."
-      "Цвет": Black"
+      "Вес (гр)": 150 гр.
+      "Цвет": SpaceBlack
+      
+  - art: ph2
+    model: MWDE2LL/B
+    description: Классный тел.
+    price: 60000.00,
+    price_rrc: 79000.00
+    quantity: 10
+    product: Iphone 13Pro
+    category: Смартфоны
+    product_characteristics: 
+      "Вес (гр)": 150 гр.
+      "Цвет": Pink
 
