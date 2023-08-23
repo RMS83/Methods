@@ -55,14 +55,14 @@ stock:
       "Диагональ": 50 дюймов
       
   - art: tv2
-      model: 60UHDLG123jdLD/BK
-      description: Недорогой телевизор 60 дюймов.
-      price: 53000.00
-      price_rrc: 63000.00
-      quantity: 5
-      product: 50UHDLG
-      category: Телевизоры
-      product_characteristics: 
-        "Вес (гр)": 10 кг.
-        "Цвет": Черный
-        "Диагональ": 60 дюймов
+    model: 60UHDLG123jdLD/BK
+    description: Недорогой телевизор 60 дюймов.
+    price: 53000.00
+    price_rrc: 63000.00
+    quantity: 5
+    product: 50UHDLG
+    category: Телевизоры
+    product_characteristics: 
+      "Вес (гр)": 10 кг.
+      "Цвет": Черный
+      "Диагональ": 60 дюймов
