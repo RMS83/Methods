@@ -1,9 +1,9 @@
 user:
-  - id: 4
+  - id: 29
     email: V1@mail.ru
 
 vendor:
-  - id: 1
+  - id: 13
     name: ИП Проха
 
 categories:
