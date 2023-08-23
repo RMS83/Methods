@@ -15,7 +15,9 @@ categories:
     description: Электронные устройства для хранения информации
   - name: Пылесосы
     description: Устройства для пылесосания
-       
+   - name: Телевизоры
+    description: Бытовые и профессиональные
+    
 stock:
   - art: ph1
     model: MWDE2LL/A
