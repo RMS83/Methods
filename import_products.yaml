@@ -34,10 +34,21 @@ stock:
     description: Классный тел.
     price: 60000.00
     price_rrc: 89000.00
-    quantity: 10
+    quantity: 5
     product: Iphone 13Pro
     category: Смартфоны
     product_characteristics: 
       "Вес (гр)": 150 гр.
       "Цвет": Pink
-
+      
+  - art: tv1
+    model: 50UHDLG123jdLD/BK
+    description: Недорогой телевизор 50 дюймов.
+    price: 43000.00
+    price_rrc: 53000.00
+    quantity: 5
+    product: 50UHDLG
+    category: Телевизоры
+    product_characteristics: 
+      "Вес (гр)": 10 кг.
+      "Цвет": Черный
